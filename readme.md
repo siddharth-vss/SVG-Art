@@ -1,5 +1,105 @@
 
 # SVG Project Documentation
+## SVG-Art
+
+A React project for creating SVG art using Vite and TypeScript.
+
+[![Stars](https://img.shields.io/github/stars/siddharth-vss/SVG-Art)](https://github.com/siddharth-vss/SVG-Art/stargazers)
+[![Forks](https://img.shields.io/github/forks/siddharth-vss/SVG-Art)](https://github.com/siddharth-vss/SVG-Art/network/members)
+[![Open Issues](https://img.shields.io/github/issues/siddharth-vss/SVG-Art)](https://github.com/siddharth-vss/SVG-Art/issues)
+[![Last Updated](https://img.shields.io/github/last-commit/siddharth-vss/SVG-Art)](https://github.com/siddharth-vss/SVG-Art/commits/main)
+
+## Introduction
+
+SVG-Art is a web application built with React, Vite, and TypeScript that allows users to create and manipulate SVG (Scalable Vector Graphics) elements. This project provides a foundation for building interactive and dynamic SVG-based artwork.
+
+## Features
+
+-   Built with React, Vite, and TypeScript for a modern development experience.
+-   Uses Styled Components for easy and maintainable styling.
+-   Includes basic project setup and configuration.
+
+## Technologies Used
+
+-   [React](https://reactjs.org/)
+-   [Vite](https://vitejs.dev/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Styled Components](https://styled-components.com/)
+-   [@svgr/webpack](https://react-svgr.com/docs/webpack/)
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+-   [Node.js](https://nodejs.org/) (version 18 or higher)
+-   [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+## Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/siddharth-vss/SVG-Art.git
+    cd SVG-Art
+    ```
+
+2.  Install the dependencies:
+
+    ```bash
+    npm install # or yarn install
+    ```
+
+## Usage
+
+1.  Start the development server:
+
+    ```bash
+    npm run dev # or yarn dev
+    ```
+
+2.  Open your browser and navigate to the address provided by Vite (usually `http://localhost:5173`).
+
+## Project Structure
+
+The project structure is organized as follows:
+
+-   `src/`: Contains the main application code.
+    -   `src/App.tsx`: The main application component.
+    -   `src/components/`: Directory for React components.
+    -   `src/assets/`: Directory for assets like images and fonts.
+    -   `src/index.css`: Global styles for the application.
+    -   `src/main.tsx`: Entry point for the React application.
+    -   `src/vite-env.d.ts`: TypeScript environment declarations for Vite.
+-   `public/`: Contains static assets.
+-   `index.html`: The main HTML file.
+-   `vite.config.ts`: Vite configuration file.
+-   `tsconfig.json`: TypeScript configuration file.
+-   `eslint.config.js`: ESLint configuration file.
+-   `.github/workflows`: Contains GitHub Actions workflows.
+
+## Configuration
+
+-   `vite.config.ts`: Configures the Vite build process, including plugins like `@vitejs/plugin-react` and `vite-plugin-svgr`.
+-   `tsconfig.json`: Configures the TypeScript compiler options for the project.
+-   `eslint.config.js`: Configures ESLint rules for linting the project.
+
+## Contributing
+
+Contributions are welcome! Here's how you can contribute:
+
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them with clear, descriptive messages.
+4.  Push your changes to your fork.
+5.  Submit a pull request to the main repository.
+
+## License
+
+This project does not have a license specified. Please refer to the repository owner for licensing information.
+
+## Contact
+
+siddharth-vss - [https://siddharth-vss.github.io/SVG-Art/](https://siddharth-vss.github.io/SVG-Art/)
 
 ## Overview
 This project is focused on creating and manipulating SVG (Scalable Vector Graphics) files. It includes various utilities and tools to work with SVG files programmatically.
@@ -108,3 +208,7 @@ export default tseslint.config({
   },
 })
 ```
+
+
+
+
